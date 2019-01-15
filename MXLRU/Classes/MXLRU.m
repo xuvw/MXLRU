@@ -86,7 +86,7 @@
         return;
     }
     LRUWait();
-    CCLXDoubleLinKNode *nodeOfKey = DicValueForKey(nodeMap, key);
+    MXDoubleLinKNode *nodeOfKey = DicValueForKey(nodeMap, key);
     if (nodeOfKey) {
         nodeOfKey->visitTime = ceil(CACurrentMediaTime());
         
@@ -101,7 +101,7 @@
             ++currentCount;
         }
     }else {
-        CCLXDoubleLinKNode *node = [[CCLXDoubleLinKNode alloc] init];
+        MXDoubleLinKNode *node = [[MXDoubleLinKNode alloc] init];
         node->key = key;
         node->value = data;
         node->visitTime = CACurrentMediaTime();
@@ -122,7 +122,7 @@
     }
     LRUWait();
     
-    CCLXDoubleLinKNode *nodeOfKey = DicValueForKey(nodeMap, key);
+    MXDoubleLinKNode *nodeOfKey = DicValueForKey(nodeMap, key);
     if (nodeOfKey) {
         nodeOfKey->visitTime = CACurrentMediaTime();
         [self bringNodeToHead:nodeOfKey];
@@ -141,7 +141,7 @@
     }
     LRUWait();
     
-    CCLXDoubleLinKNode *nodeOfKey = DicValueForKey(nodeMap, key);
+    MXDoubleLinKNode *nodeOfKey = DicValueForKey(nodeMap, key);
     if (nodeOfKey) {
         [self removeNode:nodeOfKey];
     }
@@ -208,7 +208,7 @@
 }
 
 #pragma mark - private
-- (void)bringNodeToHead:(CCLXDoubleLinKNode *)node {
+- (void)bringNodeToHead:(MXDoubleLinKNode *)node {
     if (_head == _tail && _head == node) {
         return;
     }
@@ -237,7 +237,7 @@
     }
 }
 
-- (void)insertNodeToHead:(CCLXDoubleLinKNode *)node {
+- (void)insertNodeToHead:(MXDoubleLinKNode *)node {
     if (!_head) {
         
         _head = node;
@@ -252,7 +252,7 @@
     }
 }
 
-- (void)removeNode:(CCLXDoubleLinKNode *)node {
+- (void)removeNode:(MXDoubleLinKNode *)node {
     if (_head == _tail) {
         _head = nil;
         _tail = nil;

@@ -10,6 +10,7 @@
 #endif
 #endif
 
+#import "MXLRU.h"
 
 FOUNDATION_EXPORT double MXLRUVersionNumber;
 FOUNDATION_EXPORT const unsigned char MXLRUVersionString[];

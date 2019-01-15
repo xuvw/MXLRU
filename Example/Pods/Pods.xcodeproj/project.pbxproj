@@ -7,16 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D6D58631E27F93994B9C8BEC542CEAA /* MXLRU.h in Headers */ = {isa = PBXBuildFile; fileRef = E7A1C398BADB9B48B9C63F17E27EEFCD /* MXLRU.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1FADDA5F68936E4C06BE41F6D9785055 /* Pods-MXLRU_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 344AE0CEB534E816C67E081744AFFC04 /* Pods-MXLRU_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		28485436EE8E2BE1567C3CC55891B605 /* MXLRU-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8CD105669CD9D95D9598AC4D8EDC67D8 /* MXLRU-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		411364D238730EBF3C61B1009E73A4C0 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 9F379EDD06D83ACA2299B2540810F3F2 /* ReplaceMe.m */; };
+		2A3E30E7CB783C6FBD8E0811C07B1D96 /* MXLRU.m in Sources */ = {isa = PBXBuildFile; fileRef = A804586B3F8E7B8FDE21F52E63A45F4E /* MXLRU.m */; };
+		4D677D520026586E28FC3ED34776351F /* MXLRU-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1F1454132AFECEF614A6B051E4A2CCF3 /* MXLRU-dummy.m */; };
 		7D24E68EA0A2BF972B56B637C38F45F3 /* Pods-MXLRU_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A08B8BC860394F13185440952C85AB3 /* Pods-MXLRU_Example-dummy.m */; };
 		8E1DD79C170C828E5136CE02D890942D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		B2E78DE83DCE8A10D46D4211D3752F0F /* Pods-MXLRU_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E6299DA40246F6B6EE597A0B0A70D931 /* Pods-MXLRU_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B6EE7AA085F9E3F815E094379C1043EF /* Pods-MXLRU_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A468636138581534B22FE6F53D1FD3B /* Pods-MXLRU_Tests-dummy.m */; };
-		E16BF41F0B2F96287E40202DD247D492 /* MXLRU-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EF90AAA4725DC893FA10DCFF774E1A4 /* MXLRU-dummy.m */; };
+		CA94B48263940F821A0E59FC6A64553B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		E19AAAB6A47627F5F8E2F56AA98CF556 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		E1B39156061D1CA14AB04C973FA157D1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		FFA23411A2D8CBFDBD0E42A8A692C119 /* MXLRU-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D0CEA922B731CF337F042255F1911EF /* MXLRU-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,55 +32,56 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3CAEC9ACF948758D04C7BDD766566517;
+			remoteGlobalIDString = 6DC90C4CE9DBB0A39011D3276C5B1385;
 			remoteInfo = MXLRU;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		033877607CB7C93C50EAFD68F8DF82DB /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		14C22916C2EEE4516588DD0FC86E1033 /* MXLRU.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MXLRU.modulemap; sourceTree = "<group>"; };
+		1B2DE4AB885A08F3865AD65FA6246DF6 /* MXLRU-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MXLRU-prefix.pch"; sourceTree = "<group>"; };
+		1F1454132AFECEF614A6B051E4A2CCF3 /* MXLRU-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MXLRU-dummy.m"; sourceTree = "<group>"; };
 		1FB99336064B8FF45A7A6D7E445E0AEF /* Pods-MXLRU_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MXLRU_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		285485937ADFCAAC1B5D6ED6F7337937 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		344AE0CEB534E816C67E081744AFFC04 /* Pods-MXLRU_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MXLRU_Tests-umbrella.h"; sourceTree = "<group>"; };
-		35E84E2065971F14BDEAE9715B6A8ED2 /* MXLRU-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MXLRU-prefix.pch"; sourceTree = "<group>"; };
 		4915A1792EDD0B3A09EC4834EDA04D43 /* Pods-MXLRU_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MXLRU_Example.modulemap"; sourceTree = "<group>"; };
 		49DE0AF9360B5ADA14A210B721D3D0B7 /* Pods_MXLRU_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MXLRU_Tests.framework; path = "Pods-MXLRU_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4EF90AAA4725DC893FA10DCFF774E1A4 /* MXLRU-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MXLRU-dummy.m"; sourceTree = "<group>"; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		5CB36E8B43D3AA08965B8B60CE08582C /* Pods-MXLRU_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MXLRU_Tests-resources.sh"; sourceTree = "<group>"; };
+		5D0CEA922B731CF337F042255F1911EF /* MXLRU-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MXLRU-umbrella.h"; sourceTree = "<group>"; };
 		623C65F4AB4D599BED493C305663556C /* Pods-MXLRU_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MXLRU_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		685ABA49247AE3EA832180688A4D5B25 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		689533F076712F8F8EE5D9E783E8AEF1 /* MXLRU.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MXLRU.modulemap; sourceTree = "<group>"; };
 		69790BFA0E1B43324B05FD0E2A2A9FC0 /* Pods-MXLRU_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MXLRU_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		6AF526EACDA09848F8D21C0C6E7B6101 /* Pods_MXLRU_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MXLRU_Example.framework; path = "Pods-MXLRU_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6B3D714D1DDEAC3AFDF50B670C650F35 /* MXLRU.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MXLRU.framework; path = MXLRU.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		6BB181BC746C2462957AE9D6C2680939 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		6D45C83DE0BDDA44190FB5406DDE3899 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		729A69A2B4363EF943AC79769C95C412 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		77E018BC8A262B3219F4B7B328263B62 /* Pods-MXLRU_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MXLRU_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		79117E8FE876966F7AE0D1B239A8F841 /* MXLRU.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = MXLRU.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		8CD105669CD9D95D9598AC4D8EDC67D8 /* MXLRU-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MXLRU-umbrella.h"; sourceTree = "<group>"; };
+		9349FFAE2332ADA0CFB45D8818CFC81E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9935E8573EB58CDC74CE852B5F0ECD6C /* MXLRU.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MXLRU.xcconfig; sourceTree = "<group>"; };
 		9A08B8BC860394F13185440952C85AB3 /* Pods-MXLRU_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MXLRU_Example-dummy.m"; sourceTree = "<group>"; };
 		9A468636138581534B22FE6F53D1FD3B /* Pods-MXLRU_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MXLRU_Tests-dummy.m"; sourceTree = "<group>"; };
 		9CE66C38D58B1AA05C45A445872E6289 /* Pods-MXLRU_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MXLRU_Example-frameworks.sh"; sourceTree = "<group>"; };
 		9E839953515022ABF3FAE45FE72E56D6 /* Pods-MXLRU_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MXLRU_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9F379EDD06D83ACA2299B2540810F3F2 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = MXLRU/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		A804586B3F8E7B8FDE21F52E63A45F4E /* MXLRU.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MXLRU.m; path = MXLRU/Classes/MXLRU.m; sourceTree = "<group>"; };
 		AA4B27C1C1A372A019A4AA2F6D15CAF0 /* Pods-MXLRU_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MXLRU_Tests.modulemap"; sourceTree = "<group>"; };
-		AB395D03E808470F362DD9E6AE835372 /* MXLRU.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MXLRU.xcconfig; sourceTree = "<group>"; };
 		B452C12F6DD729F6968F0E88F9E3C21C /* Pods-MXLRU_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MXLRU_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		BFDBDA1708ACF85E235A8D05E6B7FA74 /* Pods-MXLRU_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MXLRU_Example-resources.sh"; sourceTree = "<group>"; };
 		C58E40FADAB1778E0F58886945EFAB7A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CA59D9FA34E4F68B2CBD4E213E2A678F /* Pods-MXLRU_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MXLRU_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		E6299DA40246F6B6EE597A0B0A70D931 /* Pods-MXLRU_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MXLRU_Example-umbrella.h"; sourceTree = "<group>"; };
+		E7A1C398BADB9B48B9C63F17E27EEFCD /* MXLRU.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MXLRU.h; path = MXLRU/Classes/MXLRU.h; sourceTree = "<group>"; };
 		EED143FD13DC4CC47A7EFD400F952F42 /* Pods-MXLRU_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MXLRU_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		FC7CD752BB74E8D452CF069DB0E107CE /* Pods-MXLRU_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MXLRU_Example.release.xcconfig"; sourceTree = "<group>"; };
+		FF157134D1036F65C091397A27A3D39F /* MXLRU.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = MXLRU.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		285C27F0F5CBC380F1B4A42490662E21 /* Frameworks */ = {
+		090BBA1E85E3ECB81DD951B6FF4E6C42 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E1B39156061D1CA14AB04C973FA157D1 /* Foundation.framework in Frameworks */,
+				CA94B48263940F821A0E59FC6A64553B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -102,6 +104,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		04510003E431943BF72565B39C6445BA /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F0723F123099773265E783D1DD94DF70 /* MXLRU */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
 		06D4D4BD2E61CC00D402235B88502AF0 /* Pods-MXLRU_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -120,36 +130,15 @@
 			path = "Target Support Files/Pods-MXLRU_Example";
 			sourceTree = "<group>";
 		};
-		18C5E5515247D1DC411AC554115A7B62 /* Pod */ = {
+		0884D991F483F6677AEB7AE42EF092AA /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				6BB181BC746C2462957AE9D6C2680939 /* LICENSE */,
-				79117E8FE876966F7AE0D1B239A8F841 /* MXLRU.podspec */,
-				033877607CB7C93C50EAFD68F8DF82DB /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		293A4E80ABE985D66A1E01F780C02EAE /* MXLRU */ = {
-			isa = PBXGroup;
-			children = (
-				9F379EDD06D83ACA2299B2540810F3F2 /* ReplaceMe.m */,
-				18C5E5515247D1DC411AC554115A7B62 /* Pod */,
-				3CA688E8399111D885D6757840EFC373 /* Support Files */,
-			);
-			name = MXLRU;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		3CA688E8399111D885D6757840EFC373 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				285485937ADFCAAC1B5D6ED6F7337937 /* Info.plist */,
-				14C22916C2EEE4516588DD0FC86E1033 /* MXLRU.modulemap */,
-				AB395D03E808470F362DD9E6AE835372 /* MXLRU.xcconfig */,
-				4EF90AAA4725DC893FA10DCFF774E1A4 /* MXLRU-dummy.m */,
-				35E84E2065971F14BDEAE9715B6A8ED2 /* MXLRU-prefix.pch */,
-				8CD105669CD9D95D9598AC4D8EDC67D8 /* MXLRU-umbrella.h */,
+				6D45C83DE0BDDA44190FB5406DDE3899 /* Info.plist */,
+				689533F076712F8F8EE5D9E783E8AEF1 /* MXLRU.modulemap */,
+				9935E8573EB58CDC74CE852B5F0ECD6C /* MXLRU.xcconfig */,
+				1F1454132AFECEF614A6B051E4A2CCF3 /* MXLRU-dummy.m */,
+				1B2DE4AB885A08F3865AD65FA6246DF6 /* MXLRU-prefix.pch */,
+				5D0CEA922B731CF337F042255F1911EF /* MXLRU-umbrella.h */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/MXLRU";
@@ -172,23 +161,25 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		76CC76D87F88C467F28F6DE6BDC801C9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				685ABA49247AE3EA832180688A4D5B25 /* LICENSE */,
+				FF157134D1036F65C091397A27A3D39F /* MXLRU.podspec */,
+				9349FFAE2332ADA0CFB45D8818CFC81E /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				9AEC7BDDF2148BE43024BBBBFA9ABB76 /* Development Pods */,
+				04510003E431943BF72565B39C6445BA /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				9B2BB3214990E0E523890C1FCCB290D6 /* Products */,
 				48758E2E4F7004A1530D190E293C20E7 /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		9AEC7BDDF2148BE43024BBBBFA9ABB76 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				293A4E80ABE985D66A1E01F780C02EAE /* MXLRU */,
-			);
-			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		9B2BB3214990E0E523890C1FCCB290D6 /* Products */ = {
@@ -227,17 +218,21 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F0723F123099773265E783D1DD94DF70 /* MXLRU */ = {
+			isa = PBXGroup;
+			children = (
+				E7A1C398BADB9B48B9C63F17E27EEFCD /* MXLRU.h */,
+				A804586B3F8E7B8FDE21F52E63A45F4E /* MXLRU.m */,
+				76CC76D87F88C467F28F6DE6BDC801C9 /* Pod */,
+				0884D991F483F6677AEB7AE42EF092AA /* Support Files */,
+			);
+			name = MXLRU;
+			path = ../..;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		32C29966AB5CDF471B94DD231E98871A /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				28485436EE8E2BE1567C3CC55891B605 /* MXLRU-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9D278FE7F363199E62784B5AF3CA380A /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -254,26 +249,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EFE230C06514501616823205E0E93BBA /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFA23411A2D8CBFDBD0E42A8A692C119 /* MXLRU-umbrella.h in Headers */,
+				0D6D58631E27F93994B9C8BEC542CEAA /* MXLRU.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		3CAEC9ACF948758D04C7BDD766566517 /* MXLRU */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F451884089B5B9ECCB2AF9AAEBEA1832 /* Build configuration list for PBXNativeTarget "MXLRU" */;
-			buildPhases = (
-				980119928DED9C3A8AC19655F26A3B82 /* Sources */,
-				285C27F0F5CBC380F1B4A42490662E21 /* Frameworks */,
-				32C29966AB5CDF471B94DD231E98871A /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = MXLRU;
-			productName = MXLRU;
-			productReference = 6B3D714D1DDEAC3AFDF50B670C650F35 /* MXLRU.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		5359C9BFC99BDB5BFE2C013FE95C4C6F /* Pods-MXLRU_Example */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4E1D1F953B05B33F5A0791F124861468 /* Build configuration list for PBXNativeTarget "Pods-MXLRU_Example" */;
@@ -290,6 +277,23 @@
 			name = "Pods-MXLRU_Example";
 			productName = "Pods-MXLRU_Example";
 			productReference = 6AF526EACDA09848F8D21C0C6E7B6101 /* Pods_MXLRU_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6DC90C4CE9DBB0A39011D3276C5B1385 /* MXLRU */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8100AC99CA71BDC12EC72AABE67931AB /* Build configuration list for PBXNativeTarget "MXLRU" */;
+			buildPhases = (
+				B9E5F6C570B6BABFC0A9F42A078CF02F /* Sources */,
+				090BBA1E85E3ECB81DD951B6FF4E6C42 /* Frameworks */,
+				EFE230C06514501616823205E0E93BBA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MXLRU;
+			productName = MXLRU;
+			productReference = 6B3D714D1DDEAC3AFDF50B670C650F35 /* MXLRU.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		A6D53552EE5A8024559750F912937784 /* Pods-MXLRU_Tests */ = {
@@ -331,7 +335,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3CAEC9ACF948758D04C7BDD766566517 /* MXLRU */,
+				6DC90C4CE9DBB0A39011D3276C5B1385 /* MXLRU */,
 				5359C9BFC99BDB5BFE2C013FE95C4C6F /* Pods-MXLRU_Example */,
 				A6D53552EE5A8024559750F912937784 /* Pods-MXLRU_Tests */,
 			);
@@ -339,20 +343,20 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		980119928DED9C3A8AC19655F26A3B82 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				E16BF41F0B2F96287E40202DD247D492 /* MXLRU-dummy.m in Sources */,
-				411364D238730EBF3C61B1009E73A4C0 /* ReplaceMe.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		B159ADDBF563710CFC08795A6E8F6FA8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7D24E68EA0A2BF972B56B637C38F45F3 /* Pods-MXLRU_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9E5F6C570B6BABFC0A9F42A078CF02F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D677D520026586E28FC3ED34776351F /* MXLRU-dummy.m in Sources */,
+				2A3E30E7CB783C6FBD8E0811C07B1D96 /* MXLRU.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -376,7 +380,7 @@
 		EFEBFAE343899FFD35ED8F8732C5E44B /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MXLRU;
-			target = 3CAEC9ACF948758D04C7BDD766566517 /* MXLRU */;
+			target = 6DC90C4CE9DBB0A39011D3276C5B1385 /* MXLRU */;
 			targetProxy = 94D8961B5A585909CF0CA8A87D795024 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -478,36 +482,6 @@
 			};
 			name = Debug;
 		};
-		207CC07F1BFA399C56D146B520BAF9A8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AB395D03E808470F362DD9E6AE835372 /* MXLRU.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MXLRU/MXLRU-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MXLRU/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MXLRU/MXLRU.modulemap";
-				PRODUCT_MODULE_NAME = MXLRU;
-				PRODUCT_NAME = MXLRU;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		3DA607820A9A9B222B4F98284139B55C /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1FB99336064B8FF45A7A6D7E445E0AEF /* Pods-MXLRU_Tests.release.xcconfig */;
@@ -535,6 +509,37 @@
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		47506954701B9DEEAA54CBCA2FF9E66D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9935E8573EB58CDC74CE852B5F0ECD6C /* MXLRU.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MXLRU/MXLRU-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MXLRU/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MXLRU/MXLRU.modulemap";
+				PRODUCT_MODULE_NAME = MXLRU;
+				PRODUCT_NAME = MXLRU;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -575,9 +580,9 @@
 			};
 			name = Debug;
 		};
-		54501C6A3B3501A7845413583CE83475 /* Release */ = {
+		6B7672A549BADF37C430653E0DA99781 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AB395D03E808470F362DD9E6AE835372 /* MXLRU.xcconfig */;
+			baseConfigurationReference = 9935E8573EB58CDC74CE852B5F0ECD6C /* MXLRU.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -600,11 +605,10 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 		C632F7437AABCECAE74A4EAAAF011120 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -728,11 +732,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F451884089B5B9ECCB2AF9AAEBEA1832 /* Build configuration list for PBXNativeTarget "MXLRU" */ = {
+		8100AC99CA71BDC12EC72AABE67931AB /* Build configuration list for PBXNativeTarget "MXLRU" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				207CC07F1BFA399C56D146B520BAF9A8 /* Debug */,
-				54501C6A3B3501A7845413583CE83475 /* Release */,
+				6B7672A549BADF37C430653E0DA99781 /* Debug */,
+				47506954701B9DEEAA54CBCA2FF9E66D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
