@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'MXLRU_Example' do
+  pod 'MXLRU', :path => '../'
+
+  target 'MXLRU_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
